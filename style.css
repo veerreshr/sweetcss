@@ -48,9 +48,10 @@ body {
 }
 .headContent > .roundedButton {
   padding: 12px;
+  padding-top: 10px;
   border: 2px solid white;
   font-size: 16px;
-  border-radius: 20px;
+  border-radius: 15px;
   display: inline-block;
   margin-top: 10px;
   text-transform: uppercase;
@@ -113,8 +114,8 @@ body {
 }
 .card > .cardBody > .profile > img {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid white;
@@ -129,6 +130,7 @@ body {
   text-align: left;
   color: #02375e;
   font-weight: bold;
+  margin-top: 5px;
 }
 .card > .cardBody > .subTitle {
   display: -webkit-box;
@@ -171,7 +173,7 @@ body {
 @media only screen and (max-width: 400px) {
   .topImage {
     position: relative;
-    height: 30%;
+    height: 40%;
   }
   .headContent {
     background-color: #07bcd1;
